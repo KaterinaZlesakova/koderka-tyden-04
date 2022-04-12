@@ -17,8 +17,14 @@
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
+    display: flex;
 }
 
 /* ---------------------------------------------------- */
 
-
+.kontejner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

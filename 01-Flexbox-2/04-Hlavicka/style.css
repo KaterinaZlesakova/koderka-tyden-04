@@ -10,6 +10,9 @@ body {
 .hlavicka {
 	background-color: #3498db;
 	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 a {
@@ -25,3 +28,16 @@ a:hover {
 }
 
 /* ---------------------------------------------------- */
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
