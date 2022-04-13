@@ -19,4 +19,69 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+article,
+aside,
+nav {
+	flex-basis: 100%;
+	flex-grow: 1;
+	width: 200px;
+	height: 300px;
+}
+
+article,
+aside,
+nav,
+header,
+footer {
+	padding: 10px;
+}
+
+.otocit {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 1;
+}
+
+
+.velky {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.hlavni {
+	flex-shrink: 1;
+	align-items: stretch;
+}
+
+header {
+	flex-grow: 1;
+}
+
+nav {
+	flex: auto;
+	height: 80vh;
+	flex-shrink: 1;
+	min-width: fit-content;
+}
+
+article,
+aside {
+	height: 60vh;
+}
+
+header,
+footer {
+	height: 10vh;
+}
+
+
+
 
